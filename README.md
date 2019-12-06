@@ -5,7 +5,7 @@ Para construir o banco, configure o ***persistence.xml*** do projeto ***lojavirt
 ```xml
 <properties>
    <!-- Properties for Hibernate -->
-   <property name="hibernate.hbm2ddl.auto" value="update" />
+   <property name="hibernate.hbm2ddl.auto" value="create" />
    <property name="hibernate.show_sql" value="true" />
 </properties>
 ```
